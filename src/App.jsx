@@ -23,7 +23,7 @@ const App = () => {
     <div className=" font-['Poppins']">
       <Navbar />
       <Hero />
-      <div className="w-full sm:flex grid p-6 gap-3 overflow-auto justify-center min-[420px]:grid-cols-2 grid-cols-1 place-items-center">
+      <div className="w-full sm:flex p-6 gap-3 overflow-hidden justify-center place-items-center">
         {" "}
         {cardData}
       </div>
