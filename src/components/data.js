@@ -1,7 +1,7 @@
 export default [
     {
         id: '1',
-        img: "/public/assets/swimmer.png",
+        img: "../public/assets/swimmer.png",
         title: 'Life lessons with Katie Zaferes',
         location: 'USA',
         stats: {
