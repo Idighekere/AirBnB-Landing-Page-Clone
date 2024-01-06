@@ -15,7 +15,7 @@ const Card = (props) => {
   return (
     <div className="relative">
       <div
-        className="absolute text-black bg-white rounded px-2 text-bold top-2 left-2"
+        className="absolute text-black bg-white rounded px-2 text-bold top-2 left-2 text-xs sm:text-base"
         style={styles}
       >
         {badge}
@@ -26,7 +26,7 @@ const Card = (props) => {
         alt={props.title}
         className=" rounded-md "
       />
-      <div className="inline-block text-sm py-2">
+      <div className="inline-block sm:text-sm text-xs py-2">
         <div className="flex items-center gap-2">
           <img src={Star} alt="" className="w-4 h-4 rounded" />
           <p>{props.rating}</p>
