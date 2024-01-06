@@ -24,7 +24,7 @@ const Card = (props) => {
       </div>
 
       <img src={props.img} alt={props.title} className="rounded-md" />
-      <div className="inline-block sm:text-sm text-xs py-2">
+      <div className="inline-block sm:text-base text-sm py-2">
         <div className="flex items-center gap-2">
           <img src={Star} alt="" className="w-4 h-4 rounded" />
           <p>{props.rating}</p>
