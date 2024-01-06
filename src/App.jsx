@@ -24,14 +24,19 @@ const App = () => {
       <Hero />
 
       {/* Horizontal Scroll */}
+      <hi>Make plans this weekend</hi>
+      <div className="flex p-6 gap-3 overflow-x-auto min-w-screen">
+        {cardData}
+      </div>
+      <h1>Best Sellers</h1>
       <div className="flex p-6 gap-3 overflow-x-auto min-w-screen">
         {cardData}
       </div>
 
       {/* If you want multiple rows with 4 cards each */}
-      <div className="grid grid-cols-4 gap-3 p-6 overflow-x-auto min-w-screen">
+      {/*<div className="grid grid-cols-4 gap-3 p-6 overflow-x-auto min-w-screen">
         {cardData}
-      </div>
+      </div>*/}
     </div>
   );
 };
