@@ -13,7 +13,7 @@ export default [
     },
     {
         id: '2',
-        img: "/public/assets/wedding-photography.png",
+        img: "../assets/wedding-photography.png",
         title: 'Learn wedding photography',
         location: 'Online',
         stats: {
@@ -25,7 +25,7 @@ export default [
     },
     {
         id: '3',
-        img: "/public/assets/mountain-bike.png",
+        img: "../assets/mountain-bike.png",
         title: 'Group mountain biking',
         location: 'Norway',
         stats: {
@@ -37,7 +37,7 @@ export default [
     },
     {
         id: '4',
-        img: "/public/assets/wedding-photography.png",
+        img: "../assets/wedding-photography.png",
         title: 'Learn Wedding Videography',
         location: 'Online',
         stats: {
