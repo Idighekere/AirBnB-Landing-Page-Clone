@@ -22,7 +22,7 @@ const Card = (props) => {
       </div>
 
       <img
-        src={`/public/assets/${props.img}`}
+        src={props.img}
         alt={props.title}
         className=" rounded-md "
       />
