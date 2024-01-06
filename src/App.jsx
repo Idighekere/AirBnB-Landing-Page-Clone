@@ -24,11 +24,11 @@ const App = () => {
       <Hero />
 
       {/* Horizontal Scroll */}
-      <hi>Make plans this weekend</hi>
+      <hi className="text-extrabold px-6 text-base">Make plans this weekend</hi>
       <div className="flex p-6 gap-3 overflow-x-auto min-w-screen">
         {cardData}
       </div>
-      <h1>Best Sellers</h1>
+      <h1 className="text-extrabold px-6 text-base">Best Sellers</h1>
       <div className="flex p-6 gap-3 overflow-x-auto min-w-screen">
         {cardData}
       </div>
