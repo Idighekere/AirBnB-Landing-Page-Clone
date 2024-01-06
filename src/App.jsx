@@ -29,9 +29,9 @@ const App = () => {
       </div>
 
       {/* If you want multiple rows with 4 cards each */}
-      {/* <div className="grid grid-cols-4 gap-3 p-6 overflow-x-auto min-w-screen">
+      <div className="grid grid-cols-4 gap-3 p-6 overflow-x-auto min-w-screen">
         {cardData}
-      </div> */}
+      </div>
     </div>
   );
 };
