@@ -26,7 +26,7 @@ const App = () => {
       <div className=" flex p-6 gap-3 overflow-hidden justify-center place-items-center">
         {" "}
         {cardData}
-      </div><div className="w-full flex p-6 gap-3 overflow-scroll justify-center">
+      </div><div className="w-full grid-cols-12 p-6 gap-3 overflow-scroll justify-center">
         {" "}
         {cardData}
       </div>
