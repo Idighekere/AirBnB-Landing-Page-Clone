@@ -1,7 +1,7 @@
 export default [
     {
         id: '1',
-        img: `"/public/assets/swimmer.png"`,
+        img: "/public/assets/swimmer.png",
         title: 'Life lessons with Katie Zaferes',
         location: 'USA',
         stats: {
@@ -13,7 +13,7 @@ export default [
     },
     {
         id: '2',
-        img: `"/public/assets/wedding-photography.png"`,
+        img: "/public/assets/wedding-photography.png",
         title: 'Learn wedding photography',
         location: 'Online',
         stats: {
@@ -25,7 +25,7 @@ export default [
     },
     {
         id: '3',
-        img: `"/public/assets/mountain-bike.png"`,
+        img: "/public/assets/mountain-bike.png",
         title: 'Group mountain biking',
         location: 'Norway',
         stats: {
@@ -37,7 +37,7 @@ export default [
     },
     {
         id: '4',
-        img: `"/public/assets/wedding-photography.png"`,
+        img: "/public/assets/wedding-photography.png",
         title: 'Learn Wedding Videography',
         location: 'Online',
         stats: {
